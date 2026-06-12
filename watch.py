@@ -7,7 +7,7 @@ TS_TOKEN = os.environ["TS_API_TOKEN"]
 TG_TOKEN = os.environ["TG_BOT_TOKEN"]
 TG_CHAT  = os.environ["TG_CHAT_ID"]
 
-WATCH = {"srv-backstage", "srv-bml", "srv-laayoune", "sysnology-nas"}
+WATCH = {"glb2026", "srv-backstage", "srv-bml", "srv-laayoune", "sysnology-nas"}
 OFFLINE_AFTER = 360      # fallback only if connectedToControl is absent
 STATE = "state.json"
 
