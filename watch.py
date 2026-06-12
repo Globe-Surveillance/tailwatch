@@ -3,10 +3,9 @@ import json, os
 from datetime import datetime, timezone
 import requests
 
-TS_TOKEN = os.environ["tskey-api-kjSiv7c5FG11CNTRL-zZaQv91nvE27fQpTptpRF24tCe4Dnroy
-"]
-TG_TOKEN = os.environ["8962071090:AAF-geAPcm5P9IrKiugjGv_7jf0Rhedf7yY"]
-TG_CHAT  = os.environ["8500163116"]
+TS_TOKEN = os.environ["TS_API_TOKEN"]
+TG_TOKEN = os.environ["TG_BOT_TOKEN"]
+TG_CHAT  = os.environ["TG_CHAT_ID"]
 
 WATCH = {"srv-backstage", "srv-bml", "srv-laayoune", "sysnology-nas"}
 OFFLINE_AFTER = 360      # fallback only if connectedToControl is absent
